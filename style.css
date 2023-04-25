@@ -1,0 +1,147 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: hsl(217, 54%, 11%);
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.photo-div:hover{
+    display: inline-block;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+.photo-div:hover .icon{
+    opacity: 1;
+}
+.photo:hover{
+    opacity: 0.5;
+}
+.icon{
+    position: absolute; 
+    top: 30%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    opacity: 0; 
+}
+.photo{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.gap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-items: flex-start;
+    padding: 20px;
+}
+.upper-text{
+    margin-top: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+.upper-text:hover{
+    color: hsl(178, 100%, 50%);
+}
+.two-texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.text{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+.small-text{
+    margin-top: 5px;
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    border-top: none;
+    border-color:hsl(215, 32%, 27%);
+}
+.first-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: hsl(178, 100%, 50%);
+    gap: 7px;
+}
+.second-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    gap: 7px;
+    color: hsl(215, 51%, 70%);
+}
+.small-gap{
+    display: block;
+}
+.break-line{
+    margin-top: 5px;
+}
+.bottom-text{
+    display: flex;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+}
+.img-text{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+.photo1{
+    width: 10%;
+    border: solid white 0.5px;
+    border-radius: 100%;
+}
+.jules{
+    color: white;
+    white-space: pre;
+}
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+.attribution{
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    transform: translatex(-50%);
+    color: white;
+}
+a{
+    color: hsl(178, 100%, 50%);
+}
